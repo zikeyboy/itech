@@ -47,9 +47,9 @@
     pip:
       name: docker
 
-  - name: Install Docker
-    become: yes
-    shell: "amazon-linux-extras install -y docker"
+ # - name: Install Docker
+  #  become: yes
+   # shell: "amazon-linux-extras install -y docker"
 
   - name: Enable and start Docker
     become: yes
