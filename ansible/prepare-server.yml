@@ -34,7 +34,7 @@
   # Install packages
   - name: Install some yum packages
     become: yes
-    yum:
+    apt:
       name:
         - nc
         - git
