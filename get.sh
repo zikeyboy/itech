@@ -15,7 +15,7 @@ if [[ $TC_LETSENCRYPT == true ]]; then
   fi
 fi
 
-yum -y install git
+apt -y install git
 
 rm -rf /tmp/traccar-aws
 git clone --depth 1 -b master https://github.com/zikeyboy/itech.git /tmp/traccar-aws
