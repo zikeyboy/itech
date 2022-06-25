@@ -32,15 +32,15 @@
 
 
   # Install packages
-  - name: Install some yum packages
-    become: yes
-    apt:
-      name:
-        - nc
-        - git
-        - python2-pip
-      state: present
-      lock_timeout: 300
+  #- name: Install some yum packages
+   # become: yes
+    #apt:
+     # name:
+      #  - nc
+       # - git
+        #- python2-pip
+     # state: present
+      #lock_timeout: 300
 
   - name: Install Python libraries with pip
     become: yes
